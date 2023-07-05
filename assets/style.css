@@ -101,6 +101,19 @@ h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
 
+.web-design-paragraph-left {
+    text-align: left;
+}
+
+.web-design-paragraph-right {
+    text-align: left;
+}
+
+.about-me-paragrapf {
+    font-weight: var(--fw-bold);
+    color: #303030cb;
+}
+
 .section__title {
     margin-bottom: .25em;
 }
@@ -187,8 +200,8 @@ header {
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
-    top: 1em;
+    right: 2em;
+    top: 2em;
     z-index: 1000;
 }
 
@@ -291,7 +304,9 @@ header {
         position: relative;
         left: -1.5em;
         width: calc(100% + 1.5em);
-    }     
+    }
+    
+
 }
 
 .my-services {
@@ -323,7 +338,7 @@ header {
 }
 
 .service {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -456,6 +471,7 @@ header {
 
 .social-list__link {
     padding: .5em;
+    font-size: 2.5rem;
 }
 
 .portfolio-item-individual {
