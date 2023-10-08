@@ -270,6 +270,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    width: 700px;
 }
 
 .section__subtitle--intro {
@@ -278,14 +279,18 @@ header {
 
 @media (min-width: 600px) {
     .intro {
-        display: grid;
+        /* display: grid;
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas:
             "img title"
             "img subtitle"; 
-        grid-template-columns: min-content max-content;
+        grid-template-columns: min-content max-content; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .intro__img {
@@ -297,13 +302,12 @@ header {
 
     
     .section__subtitle--intro {
-        align-self: start;
-        grid-column: -1 / 1;
-        grid-row: 2;
         text-align: right;
         position: relative;
-        left: -1.5em;
-        width: calc(100% + 1.5em);
+        left: 77px;
+        width: 30%;
+        margin-bottom: 2.5em;
+        margin-top: 1em;
     }
     
 
