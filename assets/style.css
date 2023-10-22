@@ -281,18 +281,18 @@ header {
 
 @media (min-width: 600px) {
     .intro {
-        /* display: grid;
+        display: grid;
         width: min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas:
             "img title"
             "img subtitle"; 
-        grid-template-columns: min-content max-content; */
-        display: flex;
+        grid-template-columns: min-content max-content;
+        /* display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
 
     .intro__img {
@@ -300,16 +300,24 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+        border-radius: 10px;
     }
 
     
     .section__subtitle--intro {
         text-align: right;
         position: relative;
-        left: 77px;
-        width: 30%;
+        grid-area: subtitle;
+        right: 70px;
+        top: 10px;
+        width: 80%;
         margin-bottom: 2.5em;
         margin-top: 1em;
+        z-index: 3;
+    }
+
+    .section__title--intro {
+        margin-left: 20px;
     }
     
 
