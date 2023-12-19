@@ -7,7 +7,7 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-primary: 'Ubuntu', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
     
     --fw-reg: 300;
@@ -266,7 +266,7 @@ header {
 
 /*  Intro section  */
 
-.intro {
+/* .intro {
     position: relative;
 }
 
@@ -277,6 +277,32 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
+} */
+
+.intro-handyman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.intro-handyman div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.section__title--intro--handyman {
+    margin-left: -40px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section__subtitle--intro--handyman {
+    margin-left: 300px;
 }
 
 @media (min-width: 600px) {
