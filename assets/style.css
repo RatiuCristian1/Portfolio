@@ -663,3 +663,39 @@ header {
         background-color: #fff;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .portfolio {
+        width: 100%;
+    }
+
+    .portfolio-item-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card-item-container {
+        width: 100%;
+        margin: 0;
+        /* height: 500px;  */
+    }
+
+    .portfolio__img {
+        height: 200px;
+    }
+
+    .portfolio-item-header {
+        margin-bottom: 0.75em;
+    }
+
+    .coffee--container {
+        margin-top: -60px;
+    }
+
+    .button-86 {
+        width: 40px;
+        font-size: 0.8em;
+    }
+}
