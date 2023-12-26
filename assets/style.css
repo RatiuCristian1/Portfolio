@@ -488,8 +488,8 @@ header {
 }
 
 .portfolio-item-individual {
-    padding: 0 7em 2em;
-    max-width: 1000px;
+    /* padding: 0 7em 2em; */
+    /* max-width: 1000px; */
     margin: 0 auto;
 }
 
@@ -501,6 +501,8 @@ header {
 
 .portfolio-item-individual--tehnologies {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 60px;
     gap: 30px;
 }
@@ -584,8 +586,9 @@ header {
   }
 
 .handyman--button {
-    margin-left: 70px;
-    margin-top: 70px;
+    /* margin-left: 70px;
+    margin-top: 70px; */
+    margin: 20px auto;
 }  
 
 .footer {
@@ -679,7 +682,6 @@ header {
 
     .intro-handyman {
         width: 100%;
-        border: 1px solid red;
     }
 
     .intro-handyman div {
@@ -701,18 +703,22 @@ header {
     }
 
     .portfolio-item-individual {
-        width: 100%;
-        border: 1px solid green;
+        width: 90%;
     }
 
     .portfolio-item-individual--tehnologies {
-        width: 100%;
-        border: 1px solid blue;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0;
+        margin-left: 10px;
+        gap: 35px;
 
+    }
+
+    .portfolio-item-individual--tehnologies p {
+        font-size: 0.65rem;
+        font-weight: 600;
+        letter-spacing: 0.8px;
     }
 
     .react--container {
